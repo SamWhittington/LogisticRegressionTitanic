@@ -17,7 +17,7 @@ passengers['Sex'] = passengers['Sex'].map({'female':'1','male':'0'})
 
 # Fill the nan values in the age column
 #print(passengers['Age'].values)
-#meanAge = passengers['Age'].mean()
+meanAge = passengers['Age'].mean()
 passengers['Age'].fillna(value='29.7',inplace=True)
 
 
